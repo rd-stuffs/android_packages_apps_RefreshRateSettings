@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
+import com.android.refreshrate.RefreshUtils;
+
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     @Override
@@ -12,5 +14,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (!intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             return;
         }
+        RefreshUtils.initialize(context);
     }
 }
