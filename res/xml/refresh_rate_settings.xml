@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name">
+
+    <Preference
+        android:key="app_refresh"
+        android:title="@string/refresh_title"
+        android:summary="@string/refresh_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.refreshrate"
+            android:targetClass="com.android.refreshrate.RefreshActivity"/>
+    </Preference>
+
+</PreferenceScreen>

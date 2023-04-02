@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">Taxa de atualização</string>
+    <string name="app_summary">Configure a taxa de atualização da tela</string>
     <string name="refresh_title">Taxa de atualização por aplicativo</string>
     <string name="refresh_summary">Defina uma taxa de atualização para cada aplicativo</string>
     <string name="refresh_default">Padrão</string>
