@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Configurações da taxa de atualização</string>
+    <string name="refresh_title">Taxa de atualização por aplicativo</string>
+    <string name="refresh_summary">Defina uma taxa de atualização para cada aplicativo</string>
+    <string name="refresh_default">Padrão</string>
+
+</resources>
