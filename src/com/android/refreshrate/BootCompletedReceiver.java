@@ -8,7 +8,6 @@ import android.content.IntentFilter;
 import android.os.PowerManager;
 
 import com.android.refreshrate.PowerSaveModeChangeReceiver;
-import com.android.refreshrate.RefreshUtils;
 import com.android.refreshrate.RefreshRateUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -18,7 +17,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (!intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             return;
         }
-        RefreshUtils.initialize(context);
         RefreshRateUtils.setFPS(RefreshRateUtils.getRefreshRate(context));
         IntentFilter filter = new IntentFilter();
         PowerSaveModeChangeReceiver receiver = new PowerSaveModeChangeReceiver();
