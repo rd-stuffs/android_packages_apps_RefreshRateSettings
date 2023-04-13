@@ -6,5 +6,9 @@
     <string name="refresh_title">Per-app refresh rate</string>
     <string name="refresh_summary">Adjust per-app refresh rate</string>
     <string name="refresh_default">Default</string>
+    <string name="device_min_refresh_rate">Minimum refresh rate</string>
+    <string name="device_power_save_refresh_rate">Battery saver refresh rate</string>
+    <string name="device_power_save_refresh_rate_switch">Automatically lower refresh rate when battery saver is active</string>
+    <string name="refresh_rate_tile_disabled">Battery saver enabled</string>
 
 </resources>
