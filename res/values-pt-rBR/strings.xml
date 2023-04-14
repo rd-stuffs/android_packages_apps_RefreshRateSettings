@@ -6,6 +6,5 @@
     <string name="device_min_refresh_rate">Taxa de atualização mínima</string>
     <string name="device_power_save_refresh_rate">Taxa de atualização na economia de bateria</string>
     <string name="device_power_save_refresh_rate_switch">Reduz automaticamente a taxa de atualização enquanto a economia de bateria estiver ativa</string>
-    <string name="refresh_rate_tile_disabled">Economia de bateria ativada</string>
 
 </resources>
